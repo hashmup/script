@@ -57,3 +57,5 @@ alias eclipse="open -a /Applications/eclipse/Eclipse.app"
 alias vup="vagrant up"
 alias vhalt="vagrant halt"
 alias vssh="vagrant ssh"
+alias vgst="vagrant global-status"
+tmux
