@@ -1,8 +1,6 @@
 brew install readline openssl
 brew install rbenv ruby-build rbenv-gem-rehash rbenv-gemset
 brew install apple-gcc42
-echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
-echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 source ~/.bash_profile
 
 RUBY_CONFIGURE_OPTS="--with-readline-dir=$(brew --prefix readline) --with-openssl-dir=$(brew --prefix openssl)" rbenv install 2.1.3

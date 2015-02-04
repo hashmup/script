@@ -84,7 +84,9 @@ brew cask install teamviewer
 
 #mac tex
 brew cask install mactex
-echo -e 'export PATH=/usr/texbin:$PATH' >> ~/.bash_profile
 
 #tex shop
 brew cask install texshop
+
+#scansnap
+brew cask install scansnap-manager

@@ -1,4 +1,4 @@
-if which git >/dev/null; then
+if /usr/bin/xcodebuild >/dev/null; then
   . brew.sh
   . macinit.sh
   . ~/script/common/vim.sh
