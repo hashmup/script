@@ -15,6 +15,6 @@ if [ -d "${PLENV_ROOT}" ]; then
 	export PATH=${PLENV_ROOT}/bin:$PATH
 fi
 export RBENV_ROOT="${HOME}/.rbenv"
-if [ -d “${RBENV_ROOT}" ]; then
+if [ -d "${RBENV_ROOT}" ]; then
 	export PATH=${RBENV_ROOT}/bin:$PATH
 fi
