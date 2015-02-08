@@ -1,0 +1,38 @@
+# alias
+alias tmux="TERM=screen-256color-bce tmux"
+alias tmux="tmux -2"
+
+# 自作コマンド
+alias tr="~/.pyenv/versions/ve3.4.1/bin/python3 ~/.shell_py/transit.py"
+alias transit="tr;sleep 60;tr;sleep 60;tr;sleep 60;tr;sleep 60;tr;sleep 60;tr"
+
+# アプリケーション起動 alias
+alias sublime="open -a 'Sublime Text 2'"
+alias iterm="open -a iTerm"
+alias sql="open -a MySQLWorkbench"
+alias drop="open -a Dropbox"
+alias ch="open -a '/opt/homebrew-cask/Caskroom/google-chrome/latest/Google Chrome.app'"
+alias android="open -a 'Android Studio'"
+alias r="open -a RStudio"
+alias hub="open -a GitHub"
+alias note="open -a Evernote"
+alias xcode="open -a Xcode"
+alias xcode6="open -a Xcode6-Beta5"
+alias trans="open -a Transmit"
+alias tw="open -a Twitter"
+alias tterm="open -a TotalTerminal"
+alias line="open -a LINE"
+alias geny="open -a Genymotion"
+alias skype="open -a Skype"
+alias kobito="open -a Kobito"
+alias tv="open -a teamviewer"
+alias para="open -a 'Parallels Desktop'"
+alias tex="open -a TexShop"
+alias eclipse="open -a /Applications/eclipse/Eclipse.app"
+alias mongodb="mongod --config /usr/local/etc/mongod.conf"
+
+# vagrant
+alias vup="vagrant up"
+alias vhalt="vagrant halt"
+alias vssh="vagrant ssh"
+alias vgst="vagrant global-status"

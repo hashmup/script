@@ -1,0 +1,17 @@
+{
+  "php":{
+    "snippets":{
+      "hc":"/**\n * |\n *\n * @author Yuta Inoue\n * @version 1.0.0\n**/",
+      "pcontroller":"class |Controller extends ControllerBase {\n\tpublic function indexAction() {\n\t}\n}",
+      "fc":"/**\n * |\n *\n * @param\n * @return\n**/",
+      "esc":"\\$| = (!empty(\\$_POST[\"\"])) ? \\$_POST[\"\"] : \"\";",
+      "mo":"public \\$|",
+      "var":"echo \"<pre>\";\nvar_dump(\\$|);\necho \"</pre>\";",
+    }
+  },
+  "c":{
+    "snippets":{
+      "ini":"#define _CRT_SECURE_NO_WARNINGS\n#include<string>\n#include<vector>\n#include<algorithm>\n#include<numeric>\n#include<set>\n#include<map>\n#include<queue>\n#include<iostream>\n#include<sstream>\n#include<cstdio>\n#include<cmath>\n#include<ctime>\n#include<cstring>\n#include<cctype>\n#include<cassert>\n#include<limits>\n#include<bitset>\n#define rep(i,n) for(int (i)=0;(i)<(int)(n);++(i))\n#define rer(i,l,u) for(int (i)=(int)(l);(i)<=(int)(u);++(i))\n#define reu(i,l,u) for(int (i)=(int)(l);(i)<(int)(u);++(i))\nusing namespace std;\n\nint main(){\n\t|\n}"
+    }
+  }
+}

@@ -2,6 +2,7 @@ if /usr/bin/xcodebuild >/dev/null; then
   . brew.sh
   . macinit.sh
   . ~/script/common/vim.sh
+  . ~/script/common/unlink.sh
   . ~/script/common/link.sh
   mkdir ~/vagrantBoxes
   . ~/javascript/npm.sh

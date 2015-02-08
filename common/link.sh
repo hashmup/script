@@ -11,3 +11,8 @@ ln -s ~/script/dotfiles/.emmet_snippets_custom.json ~/
 ln -s ~/script/dotfiles/.vimrc ~/
 ln -s ~/script/dotfiles/.tmux.conf ~/
 ln -s ~/script/dotfiles/.gitconfig ~/
+ln -s ~/script/dotfiles/.zshrc ~/
+ln -s ~/script/dotfiles/.shalias ~/
+ln -s ~/script/dotfiles/.zshenv ~/
+ln -s ~/script/dotfiles/.bashenv ~/
+ln -s ~/script/dotfiles/.commonenv ~/

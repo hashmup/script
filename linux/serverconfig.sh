@@ -1,22 +1,7 @@
 #!/bin/sh
-# please specify your server name here.
-#
-#
-#------------------------------------#
-servername=192.168.33.11
-#------------------------------------#
-#
-#
+
 # deactivate selinux
 setenforce 0
-
-# define function to symlink items
-function symLinkAll {
-    for i in /usr/local/bin/*
-    do
-      ln -s $i /usr/bin/$(basename $i) >/dev/null 2>&1
-    done
-}
 
 # check if sudo
 if [[ $(whoami) != 'root' ]]; then
@@ -82,8 +67,5 @@ cd git-1.9.0
 ./configure
 make
 make prefix=/usr install
-
-symLinkAll
-
 
 yum update

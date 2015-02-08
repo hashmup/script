@@ -1,13 +1,12 @@
-. serverconfig.sh
-. ruby.sh
-. python.sh
-. rails.sh
-. redis.sh
-. perl.sh
-. nodejs.sh
-. java.sh
-. ~/script/common/vim.sh
-. ~/script/common/link.sh
+. ~/script/common/unlink.sh
+. ~/script/common/link_linux.sh
+. ~/script/linux/serverconfig.sh
+. ~/script/linux/ruby.sh
+. ~/script/linux/python.sh
+. ~/script/linux/perl.sh
+. ~/script/linux/nodejs.sh
+. ~/script/linux/rails.sh
+. ~/script/linux/java.sh
+. ~/script/common/vim_linux.sh
 . ~/javascript/npm.sh
 . ~/javascript/bower.sh
-

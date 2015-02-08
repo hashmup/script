@@ -1,0 +1,20 @@
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+export EDITOR='/usr/bin/vim'
+export SHELL='/bin/zsh'
+export PATH="/usr/local/bin:/opt/local/bin:/opt/local/sbin:/usr/texbin:${HOME}/.nodebrew/current/bin:$PATH"
+
+export PYENV_ROOT="${HOME}/.pyenv"
+if [ -d "${PYENV_ROOT}" ]; then
+	export PATH=${PYENV_ROOT}/bin:$PATH
+	export PYTHONPATH="~/.pyenv/versions/2.7.9/lib/python2.7/site-packages:$PYTHONPATH"
+	export PYTHONPATH="~/.pyenv/versions/3.4.1/lib/python3.4/site-packages:$PYTHONPATH"
+	export PYTHONPATH="/usr/local/lib/python2.7/site-packages/:$PYTHONPATH"
+fi
+export PLENV_ROOT="${HOME}/.plenv"
+if [ -d "${PYENV_ROOT}" ]; then
+	export PATH=${PLENV_ROOT}/bin:$PATH
+fi
+export RBENV_ROOT="${HOME}/.rbenv"
+if [ -d "${PYENV_ROOT}" ]; then
+	export PATH=${RBENV_ROOT}/bin:$PATH
+fi

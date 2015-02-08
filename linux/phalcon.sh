@@ -1,5 +1,5 @@
 #phalconのインストールに必要なモジュールをインストール
-yum -y install libtool gcc
+yum install -y libtool gcc
 
 #phalconのインストール => /var
 cd /var
