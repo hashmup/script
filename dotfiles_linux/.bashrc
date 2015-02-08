@@ -1,7 +1,5 @@
 . ~/.commonenv
-if [ -f ~/.bashenv ] ; then
 . ~/.bashenv
-fi
 alias la='ls -lah'
 alias ll='ls -l'
 cdls(){

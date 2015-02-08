@@ -1,6 +1,7 @@
 . ~/script/common/unlink.sh
 . ~/script/common/link_linux.sh
 . ~/script/linux/serverconfig.sh
+. ~/.bash_profile
 . ~/script/linux/ruby.sh
 . ~/script/linux/python.sh
 . ~/script/linux/perl.sh

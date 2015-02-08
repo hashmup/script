@@ -1,8 +1,8 @@
 cd
 wget https://raw.github.com/hokaccha/nodebrew/master/nodebrew
 perl nodebrew setup
-source ~/.bashrc
- 
+source ~/.bash_profile
+
 nodebrew -v
  
 nodebrew install-binary stable

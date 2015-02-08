@@ -1,6 +1,6 @@
-mkdir ~/python
-mkdir ~/javascript
-mkdir ~/ruby
+mkdir -p ~/python
+mkdir -p ~/javascript
+mkdir -p ~/ruby
 
 ln -s ~/script/common/npm.sh ~/javascript/
 ln -s ~/script/common/bower.sh ~/javascript/

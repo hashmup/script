@@ -1,5 +1,6 @@
 #!/bin/sh
-
+chmod a+x ~/.bash_profile
+source ~/.bash_profile
 # deactivate selinux
 setenforce 0
 
@@ -15,6 +16,7 @@ yum clean all
 
 yum install -y wget
 yum install -y vim
+yum install -y zsh
 wget http://download3.fedora.redhat.com/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
 rpm -ivh epel-release-6-8.noarch.rpm
 

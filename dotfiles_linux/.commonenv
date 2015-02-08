@@ -8,10 +8,10 @@ if [ -d "${PYENV_ROOT}" ]; then
 	export PYTHONPATH="/usr/local/lib/python2.7/site-packages/:$PYTHONPATH"
 fi
 export PLENV_ROOT="${HOME}/.plenv"
-if [ -d "${PYENV_ROOT}" ]; then
+if [ -d "${PLENV_ROOT}" ]; then
 	export PATH=${PLENV_ROOT}/bin:$PATH
 fi
 export RBENV_ROOT="${HOME}/.rbenv"
-if [ -d "${PYENV_ROOT}" ]; then
+if [ -d “${RBENV_ROOT}" ]; then
 	export PATH=${RBENV_ROOT}/bin:$PATH
 fi

@@ -1,9 +1,9 @@
 if [ -d "${PYENV_ROOT}" ]; then	
 	eval "$(pyenv init -)"
 fi
-if [ -d "${PYENV_ROOT}" ]; then
+if [ -d "${PLENV_ROOT}" ]; then
 	eval "$(plenv init -)"
 fi
-if [ -d "${PYENV_ROOT}" ]; then
+if [ -d "${RBENV_ROOT}" ]; then
 	eval "$(rbenv init -)"
 fi
