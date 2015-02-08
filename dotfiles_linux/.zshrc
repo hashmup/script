@@ -82,7 +82,6 @@ elif which xsel >/dev/null 2>&1 ; then
 elif which putclip >/dev/null 2>&1 ; then
   alias -g C='| putclip'
 fi
-. ~/.shalias
 
 # directory
 hash -d dot=~/script/dotfiles
