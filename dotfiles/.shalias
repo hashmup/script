@@ -3,11 +3,11 @@ alias tmux="TERM=screen-256color-bce tmux"
 alias tmux="tmux -2"
 
 # 自作コマンド
-alias tr="~/.pyenv/versions/ve3.4.1/bin/python3 ~/.shell_py/transit.py"
+alias tr="~/.pyenv/shims/python ~/.shell_py/transit.py"
 alias transit="tr;sleep 60;tr;sleep 60;tr;sleep 60;tr;sleep 60;tr;sleep 60;tr"
 
 # アプリケーション起動 alias
-alias sublime="open -a 'Sublime Text 2'"
+alias sublime="open -a 'Sublime Text'"
 alias iterm="open -a iTerm"
 alias sql="open -a MySQLWorkbench"
 alias drop="open -a Dropbox"
@@ -30,7 +30,8 @@ alias para="open -a 'Parallels Desktop'"
 alias tex="open -a TexShop"
 alias eclipse="open -a /Applications/eclipse/Eclipse.app"
 alias mongodb="mongod --config /usr/local/etc/mongod.conf"
-
+alias topcoder="open ~/Dropbox/procon/topcoder/ContestAppletProd.jnlp"
+alias slack="open -a slack"
 # vagrant
 alias vup="vagrant up"
 alias vhalt="vagrant halt"

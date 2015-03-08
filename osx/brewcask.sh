@@ -7,6 +7,7 @@ brew cask search
 
 brew tap homebrew/science
 brew tap homebrew/x11
+brew install Caskroom/cask/xquartz
 
 #ダウンロードするソフトウェア
 brew install wget
@@ -18,6 +19,8 @@ brew install pyqt5 --with-python --without-python3
 brew install tmux
 brew install reattach-to-user-namespace
 # brew install opencv
+brew install gfortran
+brew install R
 
 brew install zsh --disable-etcdir
 

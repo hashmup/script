@@ -1,6 +1,10 @@
 cd
-gem update --system 2.1.0
+gem update --system
 echo -e "install: --no-rdoc --no-ri\nupdate: --no-rdoc --no-ri" >> ~/.gemrc
-gem install rails --version 4.0.5
+rbenv exec gem install bundler
+rbenv rehash
+gem install --no-ri --no-rdoc rails
+rbenv rehash
+
 gem install mysql2
 gem install omniauth

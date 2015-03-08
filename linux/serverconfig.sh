@@ -20,14 +20,6 @@ yum install -y zsh
 wget http://download3.fedora.redhat.com/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
 rpm -ivh epel-release-6-8.noarch.rpm
 
-# install apache server
-# default is the latest?
-service httpd stop
-yum remove *httpd*
-yum install -y httpd httpd-devel
-service httpd start
-chkconfig httpd on
-
 # install mysql
 # the latest version is 5.6.17 on 19th Apr, 2014
 service mysqld stop
@@ -36,25 +28,6 @@ yum install -y http://dev.mysql.com/get/mysql-community-release-el6-5.noarch.rpm
 yum install -y mysql mysql-devel mysql-server mysql-utilities
 service mysqld start
 chkconfig mysqld on
-
-# install php
-# the latest for now is 5.5+
-rpm -Uvh http://mirror.webtatic.com/yum/el6/latest.rpm
-yum erase php*
-yum install -y php55w php55w-opcache php55w-mysql php55w-devel php55w-mcrypt
-
-# make a sample index
-echo '<?php phpinfo();' > /var/www/html/index.php
-service httpd restart
-
-# install phpMyAdmin
-rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
-yum install -y phpmyadmin
-
-chown apache:apache -R /usr/share/phpMyAdmin
-echo -e "Alias /phpmyadmin /usr/share/phpMyAdmin\nAlias /phpMyAdmin /usr/share/phpMyAdmin\n<Directory /usr/share/phpMyAdmin/>\nOrder allow,deny\nAllow from All\n</Directory>" > /etc/httpd/conf.d/phpMyAdmin.conf
-
-service httpd restart
 
 # install gcc compiler
 yum install -y gcc

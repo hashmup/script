@@ -1,6 +1,3 @@
-#cocoapods
-sudo gem install cocoapods
-
 #pyenv
 . pyenv.sh
 
@@ -12,3 +9,6 @@ sudo gem install cocoapods
 
 #nodejs
 . nodejs.sh
+
+#cocoapods
+sudo gem install cocoapods

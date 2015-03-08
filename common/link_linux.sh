@@ -10,7 +10,7 @@ ln -s ~/script/dotfiles_linux/.bashrc ~/
 ln -s ~/script/dotfiles_linux/.bash_profile ~/
 ln -s ~/script/dotfiles_linux/.emmet_snippets_custom.json ~/
 ln -s ~/script/dotfiles_linux/.vimrc ~/
-ln -s ~/script/dotfiles_linux/.zshrc ~/
-ln -s ~/script/dotfiles_linux/.zshenv ~/
+#ln -s ~/script/dotfiles_linux/.zshrc ~/
+#ln -s ~/script/dotfiles_linux/.zshenv ~/
 ln -s ~/script/dotfiles_linux/.bashenv ~/
 ln -s ~/script/dotfiles_linux/.commonenv ~/

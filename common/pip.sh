@@ -6,3 +6,4 @@ sudo pip isntall -U scipy
 sudo pip install -U pandas
 sudo pip install -U beautifulsoup4
 sudo pip install -U lxml
+sudo pip install -U scikit-learn
