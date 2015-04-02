@@ -7,3 +7,5 @@ sudo pip install -U pandas
 sudo pip install -U beautifulsoup4
 sudo pip install -U lxml
 sudo pip install -U scikit-learn
+sudo pip install -U django
+sudo pip install -U djangorestframework

@@ -17,6 +17,8 @@ yum clean all
 yum install -y wget
 yum install -y vim
 yum install -y zsh
+yum groupinstall -y "Development Tools"
+yum install -y expat-devel db4-devel gdbm-devel sqlite-devel readline-devel zlib zlib-devel bzip2-devel openssl-devel ncurses-devel
 wget http://download3.fedora.redhat.com/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
 rpm -ivh epel-release-6-8.noarch.rpm
 

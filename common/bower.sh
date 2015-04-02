@@ -6,6 +6,7 @@ bower install normalize.css --save
 bower install modernizr --save
 
 bower install angular --save
+bower install satellizer --save
 bower install backbone --save
 bower install knockout --save
 

@@ -1,17 +1,17 @@
 export PATH="/usr/local/bin:/opt/local/bin:/opt/local/sbin:${HOME}/.nodebrew/current/bin:$PATH"
 
-export PYENV_ROOT="${HOME}/.pyenv"
+export PYENV_ROOT="/usr/local/pyenv"
 if [ -d "${PYENV_ROOT}" ]; then
 	export PATH=${PYENV_ROOT}/bin:$PATH
-	export PYTHONPATH="~/.pyenv/versions/2.7.9/lib/python2.7/site-packages:$PYTHONPATH"
-	export PYTHONPATH="~/.pyenv/versions/3.4.1/lib/python3.4/site-packages:$PYTHONPATH"
+	export PYTHONPATH="/usr/local/pyenv/versions/2.7.9/lib/python2.7/site-packages:$PYTHONPATH"
+	export PYTHONPATH="/usr/local/pyenv/versions/3.4.1/lib/python3.4/site-packages:$PYTHONPATH"
 	export PYTHONPATH="/usr/local/lib/python2.7/site-packages/:$PYTHONPATH"
 fi
-export PLENV_ROOT="${HOME}/.plenv"
+export PLENV_ROOT="/usr/local/plenv"
 if [ -d "${PLENV_ROOT}" ]; then
 	export PATH=${PLENV_ROOT}/bin:$PATH
 fi
-export RBENV_ROOT="${HOME}/.rbenv"
+export RBENV_ROOT="/usr/local/rbenv"
 if [ -d "${RBENV_ROOT}" ]; then
 	export PATH=${RBENV_ROOT}/bin:$PATH
 fi

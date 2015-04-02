@@ -9,10 +9,12 @@ sudo yum -y install openssl-devel readline-devel zlib-devel curl-devel libyaml-d
 sudo yum -y install ImageMagick ImageMagick-devel ipa-pgothic-fonts
 
 #rbenvをインストール
-git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
+git clone https://github.com/sstephenson/rbenv.git /usr/local/rbenv
+
+mkdir /usr/local/rbenv/plugins
 
 #ruby-buildをインストール
-git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+git clone https://github.com/sstephenson/ruby-build.git /usr/local/rbenv/plugins/ruby-build
 
 source ~/.bash_profile
 
