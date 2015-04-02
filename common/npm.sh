@@ -6,3 +6,5 @@ npm install -g express
 npm install -g express-generator
 npm install -g generator-angular
 npm install -g coffee
+npm install -g grunt-google-cdn
+npm install -g grunt-ng-annotate
