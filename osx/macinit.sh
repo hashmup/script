@@ -12,3 +12,6 @@
 
 #cocoapods
 sudo gem install cocoapods
+
+# scala
+. scala.sh

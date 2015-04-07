@@ -60,6 +60,7 @@ setopt RM_STAR_SILENT
 setopt RM_STAR_WAIT
 
 # alias
+. ~/.commonenv
 alias la='ls -lah'
 alias ll='ls -l'
 cdls(){

@@ -3,4 +3,4 @@ if [ -f ~/.bashrc ] ; then
 fi
 
 tmux
-#zsh
+zsh

@@ -1,6 +1,6 @@
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
-export EDITOR='/usr/bin/vim'
 export SHELL='/bin/zsh'
+export EDITOR='/usr/bin/vim'
 export PATH="/usr/local/bin:/opt/local/bin:/opt/local/sbin:/usr/texbin:${HOME}/.nodebrew/current/bin:~/github/depot_tools:$PATH"
 
 export PYENV_ROOT="${HOME}/.pyenv"
@@ -17,4 +17,9 @@ fi
 export RBENV_ROOT="${HOME}/.rbenv"
 if [ -d "${RBENV_ROOT}" ]; then
 	export PATH=${RBENV_ROOT}/bin:$PATH
+fi
+
+export SCALA_HOME="${HOME}/.scala"
+if [ -d "${SCALA_HOME}" ]; then
+  export PATH=${SCALA_HOME}/bin:$PATH
 fi

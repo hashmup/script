@@ -24,6 +24,12 @@ brew install R
 
 brew install zsh --disable-etcdir
 
+brew install scala
+
+################
+# software
+################
+
 #google chrome
 brew cask install google-chrome
 
