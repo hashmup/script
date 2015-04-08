@@ -1,8 +1,7 @@
 brew update
 brew upgrade
 
-brew tap phinze/homebrew-cask
-brew install brew-cask
+brew install caskroom/cask/brew-cask
 brew cask search
 
 brew tap homebrew/science
