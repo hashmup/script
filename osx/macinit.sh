@@ -1,17 +1,17 @@
 #pyenv
-. pyenv.sh
+. ~/script/osx/pyenv.sh
 
 #plenv
-. plenv.sh
+. ~/script/osx/plenv.sh
 
 #rbenv
-. rbenv.sh
+. ~/script/osx/rbenv.sh
 
 #nodejs
-. nodejs.sh
+. ~/script/osx/nodejs.sh
 
 #cocoapods
 sudo gem install cocoapods
 
 # scala
-. scala.sh
+. ~/script/osx/scala.sh

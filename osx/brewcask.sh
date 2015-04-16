@@ -14,6 +14,7 @@ brew install qt
 brew install qt5
 brew install sip
 brew install pyqt5 --with-python --without-python3
+brew install nkf
 # tmuxのインストール
 brew install tmux
 brew install reattach-to-user-namespace
@@ -24,6 +25,7 @@ brew install R
 brew install zsh --disable-etcdir
 
 brew install scala
+brew install carthage
 
 ################
 # software
@@ -98,3 +100,6 @@ brew cask install texshop
 
 #scansnap
 brew cask install scansnap-manager
+
+#atom
+brew cask install atom

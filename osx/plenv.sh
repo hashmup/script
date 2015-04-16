@@ -1,6 +1,5 @@
 brew install plenv perl-build cpanminus
 mkdir -p ~/.plenv/plugins
-cd ~/.plenv/plugins
 git clone git://github.com/radford/plenv-pmset.git ~/.plenv/plugins/
 source ~/.bash_profile
 

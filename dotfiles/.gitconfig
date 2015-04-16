@@ -1,5 +1,5 @@
 [user]
-	name = Yuta Inoue
+	name = yuta-inoue
 	email = y.wizowoz@gmail.com
 [filter "media"]
 	clean = git media clean %f
@@ -8,4 +8,8 @@
 [filter "hawser"]
 	clean = git hawser clean %f
 	smudge = git hawser smudge %f
+	required = true
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
 	required = true

@@ -1,11 +1,12 @@
 source ~/.bash_profile
-mkdir -p ~/python
-mkdir -p ~/javascript
-mkdir -p ~/ruby
+mkdir -p ~/work
+mkdir -p ~/work/python
+mkdir -p ~/work/js
+mkdir -p ~/work/ruby
 
-ln -s ~/script/common/npm.sh ~/javascript/
-ln -s ~/script/common/bower.sh ~/javascript/
-ln -s ~/script/common/pip.sh ~/python/
+ln -s ~/script/common/npm.sh ~/work/js/
+ln -s ~/script/common/bower.sh ~/work/js/
+ln -s ~/script/common/pip.sh ~/work/python/
 ln -s ~/script/dotfiles_linux/.bashrc ~/
 ln -s ~/script/dotfiles_linux/.bash_profile ~/
 ln -s ~/script/dotfiles_linux/.emmet_snippets_custom.json ~/

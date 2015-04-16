@@ -1,15 +1,12 @@
 sudo apt-get -y update
 # 初期フォルダ作成
-mkdir ~/work
-mkdir -p ~/work/soft2
-mkdir ~/doc
-wget -nH --cut-dirs=4 -np -r http://www.kanji.zinbun.kyoto-u.ac.jp/~yasuoka/publications/dareUni/ -P ~/doc/
 
 # 初期に必要なソフトのインストール
 sudo apt-get -y install vim-gnome
 sudo apt-get -y install emacs23
 sudo apt-get -y install ssh
 
+sudo apt-get -y install wget
 sudo apt-get -y install git
 
 sudo apt-get -y install default-jdk
@@ -20,6 +17,13 @@ sudo apt-get -y install sqlite3
 sudo apt-get -y install bzip2 libbz2-dev
 sudo apt-get -y install libssl-dev openssl
 sudo apt-get -y install libreadline6 libreadline6-dev
+sudo apt-get -y install mysql-server
+
+# vim
+mkdir -p ~/.vim/bundle
+git clone git://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
+
+#python
 
 git clone git://github.com/yyuu/pyenv.git ~/pyenv
 sudo mv ~/pyenv/ /usr/local/
@@ -51,11 +55,17 @@ sudo mv ~/rbenv /usr/local/
 sudo chmod -R a+x /usr/local/rbenv
 sudo chmod -R 777
 mkdir /usr/local/rbenv/plugins
-git clone git://github.com/sstephenson/ruby-build.git ~/usr/local/rbenv/plugins/ruby-guild/
+git clone git://github.com/sstephenson/ruby-build.git /usr/local/rbenv/plugins/ruby-guild/
+sudo chmod -R a+x /usr/local/rbenv
+sudo chmod -R 777
 
 source ~/.bash_profile
 
 rbenv install 2.1.0
+rbenv global 2.1.0
+rbenv rehash
+
+. ~/script/linux/common/rails.sh
 
 # javascript(node.js)
 wget https://raw.github.com/hokaccha/nodebrew/master/nodebrew

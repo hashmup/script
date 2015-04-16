@@ -1,9 +1,13 @@
-mkdir -p ~/python
-mkdir -p ~/javascript
-mkdir -p ~/ruby
+sudo mkdir -p ~/work/android
+sudo mkdir -p ~/work/ios
+sudo mkdir -p ~/work/c++
+sudo mkdir -p ~/work/js
+sudo mkdir -p ~/work/python
+sudo mkdir -p ~/work/ruby
+sudo mkdir -p ~/work/scala
 
-ln -s ~/script/common/npm.sh ~/javascript/
-ln -s ~/script/common/bower.sh ~/javascript/
+ln -s ~/script/common/npm.sh ~/js/
+ln -s ~/script/common/bower.sh ~/js/
 ln -s ~/script/common/pip.sh ~/python/
 ln -s ~/script/dotfiles/.bashrc ~/
 ln -s ~/script/dotfiles/.bash_profile ~/

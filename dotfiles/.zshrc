@@ -61,6 +61,7 @@ setopt RM_STAR_WAIT
 
 # alias
 . ~/.commonenv
+. ~/.zshenv
 alias la='ls -lah'
 alias ll='ls -l'
 cdls(){
@@ -87,7 +88,8 @@ fi
 
 # directory
 hash -d dot=~/script/dotfiles
-hash -d py2=~/python/py2
-hash -d py3=~/python/py3
-hash -d js=~/javascript
+hash -d py2=~/work/python/py2
+hash -d py3=~/work/python/py3
+hash -d js=~/work/js
 hash -d vag=~/vagrantBoxes
+hash -d se=~/Dropbox/東京大学/工学部機械情報工学科/3年s1s2/SE
