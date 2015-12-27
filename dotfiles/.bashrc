@@ -15,3 +15,6 @@ alias mv='mv -i'
 alias mkdir='mkdir -p'
 alias sudo='sudo '
 . ~/.shalias
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

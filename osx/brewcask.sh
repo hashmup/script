@@ -41,7 +41,7 @@ brew cask install virtualbox
 brew cask install vagrant
 
 #sublime text
-brew cask install sublime-text
+#brew cask install sublime-text
 
 #total terminal
 brew cask install totalterminal
@@ -80,8 +80,8 @@ brew cask install dropbox
 brew cask install android-studio
 
 #unity
-brew cask install unity
-brew cask install unity-web-player
+#brew cask install unity
+#brew cask install unity-web-player
 
 #wireshark
 brew cask install wireshark
@@ -99,7 +99,33 @@ brew cask install mactex
 brew cask install texshop
 
 #scansnap
-brew cask install scansnap-manager
+brew cask install scansnap-manager-ix500
 
 #atom
 brew cask install atom
+
+brew cask install 0xed
+
+brew cask install angry-ip-scanner
+
+brew cask install cocoarestclient
+
+brew cask install boot2docker
+
+brew cask install robomongo
+
+brew cask install arduino
+
+brew cask install processing
+
+brew cask install the-unarchiver
+
+brew cask install colors
+
+brew cask install apimac-timer
+
+brew cask install xmind
+
+brew cask install skype
+
+brew cask install gimp

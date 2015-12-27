@@ -20,3 +20,9 @@ export SCALA_HOME="${HOME}/.scala"
 if [ -d "${SCALA_HOME}" ]; then
   export PATH=${SCALA_HOME}/bin:$PATH
 fi
+
+export DOCKER_HOST=tcp://192.168.59.104:2376
+export DOCKER_CERT_PATH=/Users/inoueyuta/.boot2docker/certs/boot2docker-vm
+export DOCKER_TLS_VERIFY=1
+
+#eval "$(boot2docker shellinit)"

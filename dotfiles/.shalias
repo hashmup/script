@@ -30,9 +30,11 @@ alias para="open -a 'Parallels Desktop'"
 alias tex="open -a TexShop"
 alias eclipse="open -a /Applications/eclipse/Eclipse.app"
 alias mongodb="mongod --config /usr/local/etc/mongod.conf"
-alias topcoder="open ~/Dropbox/procon/topcoder/ContestAppletProd.jnlp"
+alias topcoder="osascript ~/Dropbox/Topcoder/topcoder.scpt"
+alias topcodermain="osascript ~/Dropbox/Topcoder/topcodermain.scpt"
+
 alias slack="open -a slack"
-alias atom="open -a atom"
+alias atom="open -a Atom ./"
 # vagrant
 alias vup="vagrant up"
 alias vhalt="vagrant halt"

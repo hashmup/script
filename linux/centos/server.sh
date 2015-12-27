@@ -5,9 +5,9 @@ echo -n "1: apache"
 echo -n "2: nginx"
 read ser
 
-. ~/script/linux/serverconfig.sh
+. ~/script/linux/centos/serverconfig.sh
 
 case "$ser" in
-	"1" ) . ~/script/linux/apache.sh ;;
-	"2" ) . ~/script/linux/nginx.sh ;;
+	"1" ) . ~/script/linux/centos/apache.sh ;;
+	"2" ) . ~/script/linux/centos/nginx.sh ;;
 esac

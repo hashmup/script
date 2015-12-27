@@ -8,7 +8,12 @@ nginx -v
 # the latest for now is 5.5+
 rpm -Uvh http://mirror.webtatic.com/yum/el6/latest.rpm
 yum erase php*
-yum install -y php-fpm php-mbstring php-mysql
+sudo rpm -ivh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
+yum -y --enablerepo=remi-php56,remi,epel install php php-mbstring php-xml php-mysql php-pdo php-mcrypt php-pecl-memcache php-devel
+yum -y --enablerepo=remi-php56 install php-fpm
+
+cp -p /etc/php.ini /etc/php.ini.org
+sed -i -e 's/;date.timezone =/date.timezone = "Asia\/Tokyo"/' /etc/php.ini | grep date.timezone
 
 # make a sample index
 echo -e "session.save_path=\"/var/lib/php/session\"" >> /etc/php.ini
