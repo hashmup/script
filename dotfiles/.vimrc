@@ -8,7 +8,7 @@ endif
 """"""""""""""""""""""""""""
 " NeoBundle begin
 """""""""""""""""""""""""""
-let g:neobundle_default_git_protocol='git'
+let g:neobundle_default_git_protocol='https'
 call neobundle#begin(expand('~/.vim/bundle'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 
